@@ -50,6 +50,12 @@ the skill playrs are bigger then the line
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+the skilled players have more then the line player bye atlest 3x
+
 
 ## Inferential Results
 
